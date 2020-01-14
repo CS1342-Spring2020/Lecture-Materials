@@ -1,11 +1,11 @@
 # Connecting to Genuse Servers (MacOS)
 This is a tutorial on how to connect to the Lyle general purpose machines so that you can have a consistent environment to compile and run your programs. 
 
-## Prerequisites
+## __Prerequisites__
 1. Make sure you have a Lyle account and password setup for the Genuse Lyle Servers. Your username will likely be the first part of your email. For instance if your email is jsmith@smu.edu your username would be `jsmith`.
 2. Download `FUSE for macOS` and `sshfs` from https://osxfuse.github.io
 
-## Connecting to Lyle Servers (ssh)
+## __Connecting to Lyle Servers (ssh)__
 SSH (secure shell) is a way to establish a secured connection over an unsecure network. Practically every Unix / Linux System comes with ssh configured and installed. SSH allows users and programmers like yourself to safely connect to and gain access to remote computers or servers. Following these steps will walk you through how to use ssh to connect to the Lyle Genuse Servers.
 1. First open up the Terminal app by going to `Applications/Utilities/Terminal` or by searching for it in the spotlight (shortcut: command + space). 
 2. In your terminal window, type the following: 
@@ -23,15 +23,15 @@ where `<username>` is your Lyle account username. for example `jsmith` would typ
     - You may now create files inside this directory and access them later through connection to Genuse. 
 6. When complete, type `exit` to exit the Genuse Server shell and return to your local terminal shell.
 
-## Connecting to Lyle Servers (sshfs)
+## __Connecting to Lyle Servers (sshfs)__
 SSHFS (SSH Filesystem) allows users to mount a remote filesystem using SFTP to their computer. This enables programmers to make edits to a file on a remote server / computer using any software available on their local machine as that file is now directly mounted (shared) between the 2 file systems. 
 
 Using SSHFS is similar to using SSH. You will use it by opening a terminal window and running the following commands to mount a remote filesystem to your computer's filesystem.
 
-#### Pre-requisites
+### __Pre-requisites__
 In order to mount a remote filesystem, you must know a specific directory or folder on the remote server that you will mount. You must also create a folder on your local machine on which to mount that directory to.
 
-#### SSHFS Walkthrough
+### __SSHFS Walkthrough__
 In the following walkthrough, we will be mounting your remote `cs1342` directory previously created in the SSH section to a local directory on your Desktop called `cs1342Local`.
 
 1. First lets create the local directory that we will mount to. Open a terminal window and type the following: 
