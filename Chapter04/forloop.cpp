@@ -2,24 +2,23 @@
 using namespace std;
 
 int main() {
-  
+  const int arraySize = 5;
+  int array[arraySize] = { 1, 2, 3, 4, 5 };
   /*
- * print all numbers between 1 and 100
- * declare i within forloop
+ * iterate over an array
  */
- for (int i = 0; i < 100; i++) {
-   cout << i + 1 << endl;
+ for(int i = 0; i < arraySize; i++) {
+   cout << array[i] << endl;
  }
-
 
 /*
  * print all numbers between 1 and 100
  * declare i outside forloop
  */
- unsigned int i = 0;
- for (;i < 100; i++) {
-   cout << i << endl;
- }
+  int i = 0;
+  for (;i < 100; i++) {
+    cout << i << endl;
+  }
 
   return 0;
 }
