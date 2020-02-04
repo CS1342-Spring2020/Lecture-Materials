@@ -5,4 +5,5 @@ This repository holds all example programs covered in lecture. Refer back to thi
 - `Chapter02/` - Variables, Assignment, Operators
 - `Chapter03/` - Conditionals and Branching
 - `Chapter04/` - Loops
+- `Chapter05/` - User Defined Functions
 - `misc/` - Additional helpful material

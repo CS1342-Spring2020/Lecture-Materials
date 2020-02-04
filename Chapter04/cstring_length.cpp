@@ -9,7 +9,7 @@ int stringLength(char word[]) {
   while(word[length] != '\0') {
     length++;
   }
-
+  
   return length;
 }
 
