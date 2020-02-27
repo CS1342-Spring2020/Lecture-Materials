@@ -8,4 +8,6 @@ This repository holds all example programs covered in lecture. Refer back to thi
 - `Chapter05/` - User Defined Functions 
 - `Chapter06/` - Recursion
 - `Chapter07/` - Streams
+- `Chapter08/` - STL Vectors and Arrays
+- `Chapter09/` - Searching and Sorting Algorithms
 - `misc/` - Additional helpful material
