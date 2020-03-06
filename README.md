@@ -10,4 +10,5 @@ This repository holds all example programs covered in lecture. Refer back to thi
 - `Chapter07/` - Streams
 - `Chapter08/` - STL Vectors and Arrays
 - `Chapter09/` - Searching and Sorting Algorithms
+- `Chapter10/` - Classes and Objects
 - `misc/` - Additional helpful material
