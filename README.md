@@ -11,4 +11,5 @@ This repository holds all example programs covered in lecture. Refer back to thi
 - `Chapter08/` - STL Vectors and Arrays
 - `Chapter09/` - Searching and Sorting Algorithms
 - `Chapter10/` - Classes and Objects
+- `Chapter11/` - Pointers and Dynamic Memory Allocation
 - `misc/` - Additional helpful material
