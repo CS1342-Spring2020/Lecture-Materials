@@ -2,8 +2,5 @@
 *.out
 *.DS_Store
 highlight.cpp
-Chapter12/
-Chapter13/
 Chapter14/
-Chapter15/
 Chapter16/

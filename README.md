@@ -12,4 +12,7 @@ This repository holds all example programs covered in lecture. Refer back to thi
 - `Chapter09/` - Searching and Sorting Algorithms
 - `Chapter10/` - Classes and Objects
 - `Chapter11/` - Pointers and Dynamic Memory Allocation
+- `Chapter12/` - Linked Lists, Stacks and Queues
+- `Chapter13/` - Inheritance and Polymorphism
+- `Chapter15/` - User Defined Templates
 - `misc/` - Additional helpful material
